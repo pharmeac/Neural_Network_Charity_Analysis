@@ -26,6 +26,9 @@ The purpose of this analysis was to create a model to help the foundation predic
  - On the third attempt to optimize the model, I added another hidden layer (10 nodes) and change the activation functions of the hidden layers (tanh)
    - Accuracy 70.5%, 0.61
    - After callback optimization (after 5 epochs): Accuracy 72.4%, loss 0.55
+ 
+ ![image](https://user-images.githubusercontent.com/109913335/212482085-51a1d800-40e0-4c08-ac3a-d36c20c2ea5a.png)
+
 
 ## Summary
 I was not able to achieve the target model performance of 75% accuracy. We ended up with a model that achieved 72.4% accuracy. A different model, that bins the ASK_AMT instead of removing it may improve the model. Additionally, a ratio of income to ask amount may also improve the model.
